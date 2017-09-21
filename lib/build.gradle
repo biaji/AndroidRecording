@@ -35,6 +35,6 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:23.+'
+    compile 'com.android.support:support-v4:22.+'
     compile files('libs/simplesound-0.1.jar')
 }
