@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 22
     buildToolsVersion "25.0.0"
 
     defaultConfig {
         applicationId "com.skd.androidrecordingtest"
         minSdkVersion 9
-        targetSdkVersion 23
+        targetSdkVersion 22
     }
 
 
@@ -33,5 +33,5 @@ android {
 
 dependencies {
     compile project(':lib')
-    compile 'com.android.support:support-v4:23.+'
+    compile 'com.android.support:support-v4:22.+'
 }
